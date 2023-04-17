@@ -1,10 +1,4 @@
-  - How to make a portfolio picture with extension svg
-
-  - add a personal image 
-
   - upload your resume on google drive  - edit the link to your resume 
-
-  - make sure that you use the exact technologies 
 
 
 
@@ -16,4 +10,6 @@ Solved issues:
   - handle the email filed in the form of contact component (verify the input email)
   - handle popup window in the first porject (I think the best solution to this problem is assigning a fixed length to the section of describtion and add scroll propority to it )
   - make the model element more responsive in all screen sizes
-
+  - add a personal image 
+  - How to make a portfolio picture with extension svg
+  - make sure that you use the exact technologies 
