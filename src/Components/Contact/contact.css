@@ -1,0 +1,25 @@
+/* .contact {
+    background: var(--light-black);
+    color: #fff;
+} */
+/* .contact__body {
+    border-bottom: 2px solid #fff;
+} */
+.contact__form input, .contact__form textarea  {
+    padding: 8px 10px;
+    border: 1px solid #000;
+    outline: none!important;
+    border-radius: 8px;
+}
+.contact__form input:focus , .contact__form textarea:focus  {
+    /* border: none; */
+    outline: none;
+}
+
+.logo__symbol {
+    background: #FFFFFF80;
+    border-radius: 50%;
+}
+.contact__text {
+    text-align: justify;
+}
