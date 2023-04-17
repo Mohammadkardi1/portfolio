@@ -34,7 +34,7 @@ export default function Hero() {
                     <div className='mb-3 mb-md-0'>
                         <h3 data-aos='fade-down' 
                             data-aos-duration='1500'>
-                                Nice to meet you!
+                                Hi!
                         </h3>
                         <h3 data-aos='fade-right' 
                             data-aos-duration='1500'>
