@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/images/hero.svg'
+import heroImg from '../../assets/images/Capture.PNG'
 import './Hero.css'
 import CountUp from 'react-countup'
 
@@ -79,7 +79,7 @@ export default function Hero() {
                             </ul>
                         </div>
                     </div>
-                    <div className='d-flex align-items-center justify-content-center'
+                    <div className='about__img d-flex align-items-center justify-content-center'
                         data-aos='fade-down'
                         data-aos-duration='1500'>
                         <img src={heroImg} alt="" />
