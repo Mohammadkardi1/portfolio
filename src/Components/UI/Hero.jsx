@@ -51,7 +51,7 @@ export default function Hero() {
                                 </a>
                             </div>
                             <div className='portfolio d-flex align-items-center'>
-                                <a href="https://drive.google.com/file/d/1Eibj_OT-jqttK4ed_sGFaEnizimEWomC/view?usp=sharing" target='_blank '>
+                                <a href="https://drive.google.com/file/d/1H33RGO7msYHQo9XE4j_AnTydLyLWxU5a/view?usp=sharing" target='_blank '>
                                     My resume
                                 </a>
                             </div>
