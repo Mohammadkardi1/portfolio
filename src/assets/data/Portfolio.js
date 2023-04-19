@@ -1,19 +1,20 @@
-import portfolioImg01 from "../images/multimart-ecommerce-full-stack.png";
-import portfolioImg02 from "../images/multi-step-form.png";
-import portfolioImg03 from "../images/movies-app.png";
-import portfolioImg04 from "../images/e-commerce-product.png";
-import portfolioImg05 from "../images/manage-landing-page.png";
-import portfolioImg06 from "../images/interactive-card-details-form-main.png";
-import portfolioImg07 from "../images/agency-homepage.png";
-import portfolioImg08 from "../images/news-homepage.png";
-import portfolioImg09 from "../images/results-summary-component.png";
+import portfolioImg41 from "../images/multimart-ecommerce-full-stack.png";
+import portfolioImg42 from "../images/calculator.png"
+import portfolioImg43 from "../images/multi-step-form.png";
+import portfolioImg44 from "../images/movies-app.png";
+import portfolioImg45 from "../images/e-commerce-product.png";
+import portfolioImg46 from "../images/manage-landing-page.png";
+import portfolioImg47 from "../images/interactive-card-details-form-main.png";
+import portfolioImg48 from "../images/agency-homepage.png";
+import portfolioImg49 from "../images/news-homepage.png";
+import portfolioImg50 from "../images/results-summary-component.png";
 
 
 
 const portfolios = [
     {
-    id: "01",
-    imgUrl: portfolioImg01,
+    id: "41",
+    imgUrl: portfolioImg41,
     category: "Web Design",
     title: "Full Stack E-Commerce Website",
     description:
@@ -29,10 +30,22 @@ const portfolios = [
     },
 
 
+    {
+    id: "42",
+    imgUrl: portfolioImg42,
+    category: "Web Design",
+    title: "Calculator",
+    description:
+        [
+            'Implemented calculator functionality using React Hooks to enable basic arithmetic operations, including addition, subtraction, multiplication, and division.'
+        ],
+    technologies: ["React", "Bootstrap"],
+    siteUrl: "https://calculator-pi-hazel.vercel.app",
+    },
 
     {
-    id: "02",
-    imgUrl: portfolioImg02,
+    id: "43",
+    imgUrl: portfolioImg43,
     category: "Web Design",
     title: "Multiple Step Form",
     description:
@@ -47,8 +60,8 @@ const portfolios = [
 
 
     {
-    id: "03",
-    imgUrl: portfolioImg03,
+    id: "44",
+    imgUrl: portfolioImg44,
     category: "Web Design",
     title: "Movies App",
     description:
@@ -63,8 +76,8 @@ const portfolios = [
 
 
     {
-    id: "04",
-    imgUrl: portfolioImg04,
+    id: "45",
+    imgUrl: portfolioImg45,
     category: "Web Design",
     title: "E Commerce Porduct Page",
     description:
@@ -79,8 +92,8 @@ const portfolios = [
 
 
     {
-    id: "05",
-    imgUrl: portfolioImg05,
+    id: "46",
+    imgUrl: portfolioImg46,
     category: "Web Design",
     title: "Manage Landing Page",
     description:
@@ -95,8 +108,8 @@ const portfolios = [
 
 
     {
-    id: "06",
-    imgUrl: portfolioImg06,
+    id: "47",
+    imgUrl: portfolioImg47,
     category: "Web Design",
     title: "Interactive Card Details Form Main Page",
     description:
@@ -110,8 +123,8 @@ const portfolios = [
 
 
     {
-    id: "07",
-    imgUrl: portfolioImg07,
+    id: "48",
+    imgUrl: portfolioImg48,
     category: "Web Design",
     title: "Agency Homepage",
     description:
@@ -127,8 +140,8 @@ const portfolios = [
 
 
     {
-    id: "08",
-    imgUrl: portfolioImg08,
+    id: "49",
+    imgUrl: portfolioImg49,
     category: "Web Design",
     title: "News Homepage",
     description:
@@ -143,8 +156,8 @@ const portfolios = [
 
 
     {
-    id: "09",
-    imgUrl: portfolioImg09,
+    id: "50",
+    imgUrl: portfolioImg50,
     category: "Web Design",
     title: "Results Summary Component",
     description:
