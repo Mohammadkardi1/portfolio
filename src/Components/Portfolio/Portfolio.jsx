@@ -27,7 +27,7 @@ export default function Portfolio() {
         <div className='portfolio' id='portfolio'>
             <div className="container">
                 <div className='pb-4'>
-                    <h3 className='m-0 fw-bold'>My Recent Projects</h3>
+                    <h3 className='m-0 fw-bold text-white'>My Recent Projects</h3>
                 </div>
                 <div className='row g-3'>
                     {

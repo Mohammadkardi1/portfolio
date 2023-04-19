@@ -4,6 +4,8 @@ import './contact.css'
 
 
 export default function Contact() {
+
+    
     return (
         <div className="contact mb-4" id='contact'>
             <div className="container">
@@ -14,7 +16,7 @@ export default function Contact() {
                     <div className="col-12 col-md-6">
                         
                         <p className='text-justify contact__text'>
-                        I am excited about the opportunity to work as a full-time front-end developer and confident that I can make a valuable contribution to your team. I would be honored to hear from you. Please take a moment to fill out the form, and I will respond promptly.
+                        I am excited about the opportunity to work as a full-time web developer and confident that I can make a valuable contribution to your team. I would be honored to hear from you. Please take a moment to fill out the form, and I will respond promptly.
                         </p>
                     </div>
                     <div className="col-12 col-md-6 contact__form pb-3">

@@ -27,6 +27,10 @@ const social_links = [
 
 
 export default function Hero() {
+
+
+
+    
     return (
         <div className='about py-4' id='about'>
             <div className="container">
@@ -39,7 +43,7 @@ export default function Hero() {
                         <h3 data-aos='fade-right' 
                             data-aos-duration='1500'>
                             I am Mohammad Kardi <br/>
-                            Frontend Developer
+                            A Web Developer
                         </h3>
                         <div className='contact__buttons d-flex gap-4 py-4'>
                             <div className='hire-me'>

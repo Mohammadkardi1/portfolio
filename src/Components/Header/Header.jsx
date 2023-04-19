@@ -1,5 +1,6 @@
-import React, {useRef} from 'react'
+import React, {useRef, useEffect} from 'react'
 import './Header.css'
+
 
 
 
@@ -29,6 +30,10 @@ function Header() {
         menuRef.current.classList.toggle("active-menu")
     }
 
+
+
+
+
     return (
         <div className='header'>
             <div className="container py-4">
@@ -44,7 +49,7 @@ function Header() {
                 <div className="nav__links"
                     ref={menuRef}
                     >
-                    <ul className='d-flex align-items-start px-3'>
+                    <ul className='d-flex align-items-start px-3 '>
                         <li className="text-end align-self-end d-block d-md-none"
                             onClick={menuToggler}>
                             <i className="ri-close-fill"></i>
@@ -53,7 +58,7 @@ function Header() {
                             nav__items.map((item, index) => (
                                 <li key={index}>
                                     <a 
-                                        href={`#${item.path}`}
+                                        href={`#${item.path} `}
                                         onClick={menuToggler}>
                                         {item.display}
                                     </a>

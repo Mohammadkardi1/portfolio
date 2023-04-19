@@ -29,6 +29,7 @@
 .portfolio__details .details__window  {
     width: 600px;
     background: #fff;
+    /* background: var(--bg-color); */
     border-radius: 10px;
 }
 .portfolio__details img {

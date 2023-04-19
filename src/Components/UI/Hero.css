@@ -1,15 +1,21 @@
 .about {
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
+    color: #fff;
 }
 .about__content h3 {
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
+    color: #fff;
 }
 .about__content .contact__buttons .hire-me i {
     color: #fff;
 }
 .about__content .contact__buttons .portfolio a {
-    color: var(--heading-color);
-    border-bottom: 1px solid var(--heading-color);
+    /* color: var(--heading-color); */
+    /* border-bottom: 1px solid var(--heading-color); */
+
+    color: #fff;
+    border-bottom: 1px solid #fff;
+
 }
 .about__content .contact__buttons a:hover {
     color: var(--heading-color);
@@ -39,17 +45,21 @@
     opacity: .7
 }
 .ri-github-fill {
-    color: #181717;
+    /* color: #181717; */
+    color: #fff;
 }
 .ri-linkedin-box-fill {
-    color: #0e76a8; 
+    /* color: #0e76a8;  */
+    color: #fff;
 }
 
 .ri-facebook-box-fill {
-    color: #1877f2;
+    /* color: #1877f2; */
+    color: #fff;
 }
 .ri-telegram-fill {
-    color: #0088cc; 
+    /* color: #0088cc;  */
+    color: #fff;
 }
 
 .about__img img {

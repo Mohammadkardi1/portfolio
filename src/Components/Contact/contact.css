@@ -5,9 +5,13 @@
 /* .contact__body {
     border-bottom: 2px solid #fff;
 } */
+.contact {
+    color: #fff;
+}
+
 .contact__form input, .contact__form textarea  {
     padding: 8px 10px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     outline: none!important;
     border-radius: 8px;
 }
