@@ -24,7 +24,6 @@ const portfolios = [
             "dealt with cloud-based database which is Firebase.",
             "Integrated Firebase authentication and authorization for user registration and login.",
             "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
-            "Included a feature that displays the local time of a city based on the user's location or search query.",
             "Built a dashboard which contributing to manage the entire website more easily.",
         ],
     technologies: ["React", "Redux" , "Boostrap", "Firebase"],
@@ -40,8 +39,9 @@ const portfolios = [
             [
                 'Utilized APIs from OpenWeatherMap to gather and display weather data.',
                 'Users can search for weather information by city name and view hourly and daily forecasts.',
-                'Included a user-friendly feature that allows users to switch between Celsius and Fahrenheit units',
-                "Implemented responsive design to ensure the website is accessible on various devices"
+                'Included a user-friendly feature that allows users to switch between Celsius and Fahrenheit units.',
+                "Included a feature that displays the local time of a city based on the user's location or search query.",
+                "Implemented responsive design to ensure the website is accessible on various devices."
             ],
         technologies: ["React", "ContextAPI", "RESTful API" , "Tailwind"],
         siteUrl: "https://mohammad-kardi-weather-app.vercel.app",
