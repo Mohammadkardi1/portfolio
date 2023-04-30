@@ -18,7 +18,7 @@
 
 }
 .about__content .contact__buttons a:hover {
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
     opacity: .7;
 }
 .about .about__about-me {
