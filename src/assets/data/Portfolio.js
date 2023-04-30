@@ -1,4 +1,5 @@
-import portfolioImg41 from "../images/multimart-ecommerce-full-stack.png";
+import portfolioImg40 from "../images/multimart-ecommerce-full-stack.png";
+import portfolioImg41 from '../images/weather-app.png'
 import portfolioImg42 from "../images/calculator.png"
 import portfolioImg43 from "../images/multi-step-form.png";
 import portfolioImg44 from "../images/movies-app.png";
@@ -13,8 +14,8 @@ import portfolioImg50 from "../images/results-summary-component.png";
 
 const portfolios = [
     {
-    id: "41",
-    imgUrl: portfolioImg41,
+    id: "40",
+    imgUrl: portfolioImg40,
     category: "Web Design",
     title: "Full Stack E-Commerce Website",
     description:
@@ -28,6 +29,22 @@ const portfolios = [
     technologies: ["React", "Redux" , "Boostrap", "Firebase"],
     siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
     },
+
+    {
+        id: "41",
+        imgUrl: portfolioImg41,
+        category: "Web Design",
+        title: "Weather App",
+        description:
+            [
+                'Utilized APIs from OpenWeatherMap to gather and display weather data.',
+                'Users can search for weather information by city name and view hourly and daily forecasts.',
+                'Included a user-friendly feature that allows users to switch between Celsius and Fahrenheit units',
+                "Implemented responsive design to ensure the website is accessible on various devices"
+            ],
+        technologies: ["React", "ContextAPI", "RESTful API" , "Tailwind"],
+        siteUrl: "https://mohammad-kardi-weather-app.vercel.app",
+        },
 
 
     {
