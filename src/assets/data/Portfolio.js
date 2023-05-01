@@ -87,7 +87,7 @@ const portfolios = [
             "Integrated a movie API into the website using JavaScript to fetch movie data and display it on the page.",
             "Implemented Redux for state management."
         ],
-    technologies: ["React", "ContextAPI" , "Bootstrap"],
+    technologies: ["React", "ContextAPI" , "RESTful API" ,"Bootstrap"],
     siteUrl: "https://mohammad-kardi-movies-app.vercel.app",
     },
 
@@ -120,11 +120,6 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/manage-landing-page/",
     },
-
-
-
-
-
     {
     id: "47",
     imgUrl: portfolioImg47,
@@ -136,10 +131,6 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammad-kardi-interactive-card-details-form-main-page.vercel.app",
     },
-
-
-
-
     {
     id: "48",
     imgUrl: portfolioImg48,
@@ -151,12 +142,6 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/agency-homepage/",
     },  
-
-
-
-
-
-
     {
     id: "49",
     imgUrl: portfolioImg49,
@@ -168,11 +153,6 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/news-homepage/",
     },
-
-
-
-
-
     {
     id: "50",
     imgUrl: portfolioImg50,

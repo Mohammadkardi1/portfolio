@@ -1,0 +1,22 @@
+.single__experience-container {
+
+}
+.single__experience {
+    position: relative;
+    padding: 20px;
+}
+.single__experience::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    content: "";
+    background: var(--primary-color-two);
+    color: var(--primary-color-two);
+}
+@media screen and (max-width: 768px) {
+    .single__experience {
+        padding: 15px;
+    }
+}

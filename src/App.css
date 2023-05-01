@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 
 :root {
     --primary-color: #8873ef; 
@@ -7,30 +9,29 @@
     --light-green: #67d7a7;
     --light-black: #242424;
     
-
-
     --bg-color: #0E1B31;
     --primary-color-two: #7865FF;
     --card-color: #132347;
     --model-bg: #102048;
     --scroll-bar-color: #c1ceff;
-    --scroll-bar-thumb-color: #282f4e
+    --scroll-bar-thumb-color: #282f4e;
+
 }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* color: var(--heading-color); */
 }
 html {
     scroll-behavior:smooth;
 }
 body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Urbanist', sans-serif;
     background: var(--bg-color)!important;
 }
 .purple-btn {
-    background: var(--primary-color);
+    background: var(--primary-color-two) !important;
     border: none;
     color: #fff;
     border-radius: 10px;
@@ -40,7 +41,7 @@ body {
     opacity: .8;
 }
 .green-btn {
-    background: var(--light-green);
+    background-color: var(--light-green);
     border: none;
     color: #fff;
     border-radius: 10px;
@@ -51,4 +52,8 @@ body {
 }
 a {
     text-decoration: none!important;
+}
+
+.header {
+    box-shadow: 7px -2px 7px 3px var(--primary-color-two);
 }

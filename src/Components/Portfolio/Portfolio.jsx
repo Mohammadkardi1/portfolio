@@ -22,45 +22,45 @@ export default function Portfolio() {
         setNextItems(nextItems+3)
     }
 
-
     return (
         <div className='portfolio' id='portfolio'>
-            <div className="container">
-                <div className='pb-4'>
-                    <h3 className='m-0 fw-bold text-white'>My Recent Projects</h3>
+            <div className="container mx-auto px-4">
+                <div>
+                    <h3 className='text-white mb-4 font-bold text-xl md:text-2xl tracking-wider'>
+                        My Projects
+                    </h3>
                 </div>
-                <div className='row g-3'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-3'>
                     {
                         portfolioData.slice(0,nextItems)?.map((item, index) => (
-                            <div className='col-12 col-md-6  col-lg-4' key={index}>
-                                <div className='protfolio__card position-relative'>
-                                    <div className='portfolio__overlay'>
-                                        <button 
-                                            className='purple-btn'
-                                            onClick={() => handleBooleanToggle(index)}
-                                        >
-                                            See details
-                                        </button>
+                            <div className='' key={index}>
+                                <div className='protfolio__card relative cursor-pointer text-white rounded-md'
+                                    onClick={() => handleBooleanToggle(index)}>
+                                    <div className='portfolio__overlay rounded-md text-lg'>
+                                        See details
                                     </div>
                                     <img 
                                         src={item.imgUrl} 
                                         alt="" 
-                                        className='rounded-3'
+                                        className='rounded-md'
                                         />
                                 </div>
-                                <div className={`portfolio__details d-flex justify-content-center align-items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
+                                <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
                                     <div className='details__window px-3'>
                                         <div 
-                                            className='details__close'
+                                            className='text-right cursor-pointer text-3xl'
                                             onClick={() => handleBooleanToggle(index)}>
                                             <i class="ri-close-line"></i>
                                         </div>
-                                        <img src={item.imgUrl} alt="" />
-                                        <h5 className='my-3 fw-bold'>
+                                        <img 
+                                            className='w-full rounded-[10px]'
+                                            src={item.imgUrl} 
+                                            alt="" />
+                                        <h5 className='my-1 font-bold'>
                                             {item.title}
                                         </h5>
-                                        <div className='details__description'>
-                                            <ul>  
+                                        <div className='max-h-24 overflow-y-auto mb-3 text-sm'>
+                                            <ul className='list-disc pl-5'>  
                                             {item.description.map((item,index) => (
                                                 <li key={index}>
                                                     {item}
@@ -69,11 +69,11 @@ export default function Portfolio() {
                                             </ul>
                                         </div>
                                         <div className='technologies mb-4'>
-                                            <h5 className=' d-flex align-items-center fw-bold mb-2'>Technologies:</h5>
-                                            <ul className='d-flex gap-1 m-0 p-0 '>
+                                            <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
+                                            <ul className='flex gap-1 m-0 p-0 '>
                                                 {
                                                     item.technologies?.map((item, index ) => (
-                                                        <li className='' key={index}>
+                                                        <li className='bg-[color:#d7d7d7] rounded-[7px] px-[7px] py-[5px]' key={index}>
                                                             {item}
                                                         </li>
                                                     ))
@@ -94,14 +94,13 @@ export default function Portfolio() {
                     }
                 </div>
                 <div 
-                    className={`text-center py-5 ${nextItems === portfolioData.length ? "invisible" : "visible" }`}
+                    className={`text-center py-5 ${nextItems === portfolioData.length +1 ? "invisible" : "visible" }`}
                     onClick={loadMoreHandler}>
                     <button className='purple-btn '>
                         Load more
                     </button>
                 </div>
             </div>
-            
         </div>
     )
 }

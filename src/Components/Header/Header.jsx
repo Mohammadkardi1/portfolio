@@ -1,7 +1,5 @@
-import React, {useRef, useEffect} from 'react'
+import React, {useRef} from 'react'
 import './Header.css'
-
-
 
 
 const nav__items = [
@@ -30,34 +28,33 @@ function Header() {
         menuRef.current.classList.toggle("active-menu")
     }
 
-
-
-
-
-    return (
-        <div className='header'>
-            <div className="container py-4">
-                <div className="logo d-flex">
-                    <div className="logo__img d-flex align-items-center px-3">
+    return ( 
+        <div className='header  py-4 bg-[color:var(--card-color)]'>
+            <div className="container mx-auto px-4 flex justify-between text-[color:#fff]">
+                <div className="flex text-sm md:text-lg">
+                    <div className="flex items-center justify-center
+                            bg-[color:var(--primary-color-two)] rounded-full w-12 h-12 font-semibold">
                         M
                     </div>
                     <div className="ps-2">
-                        <p className='fw-bold'>Mohammad</p>
+                        <p className='font-bold'>Mohammad</p>
                         <p>personal</p>
                     </div>
                 </div>
-                <div className="nav__links"
+                <div className="nav__links md:flex md:items-center bg-[color: var(--bg-color)]"
                     ref={menuRef}
-                    >
-                    <ul className='d-flex align-items-start px-3 '>
-                        <li className="text-end align-self-end d-block d-md-none"
+                    > 
+                    <ul className='flex items-start gap-6 m-0 bg-[color: var(--bg-color)]'>
+                        <li className="text-end text-2xl self-end cursor-pointer block md:hidden "
                             onClick={menuToggler}>
                             <i className="ri-close-fill"></i>
                         </li>
                         {
                             nav__items.map((item, index) => (
-                                <li key={index}>
+                                <li key={index} className='text-sm sm:text-lg tarnsition ease-out 
+                                    hover:text-[color:var(--primary-color-two)]'>
                                     <a 
+                                        className='no-underline'
                                         href={`#${item.path} `}
                                         onClick={menuToggler}>
                                         {item.display}
@@ -67,14 +64,11 @@ function Header() {
                         }
                     </ul>
                 </div>
-                <div className='header__button d-flex align-items-center gap-2 d-block d-md-none'>
-                    {/* <button>
-                        <i class="ri-send-plane-line pe-1"></i>
-                        Let's Talk
-                    </button> */}
-                    <div className="menu_toggler"
+                <div className='flex items-center gap-2 block md:hidden'>
+                    <div className="menu_toggler cursor-pointer rounded border
+                        border-white py-1 px-2"
                         onClick={menuToggler}>
-                        <i class="ri-menu-line px-1"></i>
+                        <i class="ri-menu-line px-2"></i>
                     </div>
                 </div>
             </div>
