@@ -21,14 +21,15 @@ const portfolios = [
     description:
         [
             "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
-            "dealt with cloud-based database which is Firebase.",
+            "dealt with a cloud-based database which is Firebase.",
             "Integrated Firebase authentication and authorization for user registration and login.",
             "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
-            "Built a dashboard which contributing to manage the entire website more easily.",
+            "Built a dashboard which contributes to manage the entire website more easily.",
         ],
-    technologies: ["React", "Redux" , "Boostrap", "Firebase"],
+    technologies: ["React", "Redux" , "Bootstrap", "Firebase"],
     siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
     },
+
 
     {
         id: "41",
@@ -61,6 +62,7 @@ const portfolios = [
     siteUrl: "https://calculator-pi-hazel.vercel.app",
     },
 
+
     {
     id: "43",
     imgUrl: portfolioImg43,
@@ -74,7 +76,6 @@ const portfolios = [
     technologies: ["React", "ContextAPI" , "Bootstrap"],
     siteUrl: "https://mohammad-kardi-multi-step-form.vercel.app",
     },
-
 
 
     {
@@ -92,12 +93,11 @@ const portfolios = [
     },
 
 
-
     {
     id: "45",
     imgUrl: portfolioImg45,
     category: "Web Design",
-    title: "E Commerce Porduct Page",
+    title: "E Commerce Product Page",
     description:
         [
             "A responsible website page which shows one product in an e-commerce website.",
@@ -106,7 +106,6 @@ const portfolios = [
     technologies: ["React", "Bootstrap"],
     siteUrl: "https://mohammad-kardi-e-commerce-product-yt.netlify.app",
     },
-
 
 
     {
@@ -120,6 +119,8 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/manage-landing-page/",
     },
+
+
     {
     id: "47",
     imgUrl: portfolioImg47,
@@ -131,6 +132,8 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammad-kardi-interactive-card-details-form-main-page.vercel.app",
     },
+
+
     {
     id: "48",
     imgUrl: portfolioImg48,
@@ -142,6 +145,8 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/agency-homepage/",
     },  
+
+
     {
     id: "49",
     imgUrl: portfolioImg49,
@@ -153,6 +158,8 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/news-homepage/",
     },
+
+
     {
     id: "50",
     imgUrl: portfolioImg50,
@@ -160,7 +167,6 @@ const portfolios = [
     title: "Results Summary Component",
     description:
     [
-
     ],
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/results-summary-component/",
