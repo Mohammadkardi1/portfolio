@@ -35,7 +35,7 @@ function ScientificContributions() {
             <div className='grid grid-cols-1 gap-8'>
                 <div>
                     <p className='text-md sm:text-lg md:text-xl underline w-fit '>
-                        A Research Paper in Peer-Reviewed Scientific Conference
+                        A Research Paper in a Peer-Reviewed Scientific Conference
                     </p>
                     <div  className='xs:text-xs sm:text-sm md:text-md md:pl-4 '>
                         <ul className='list-disc pl-5 text-[color:var(--scroll-bar-color)]'>
