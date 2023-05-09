@@ -32,8 +32,7 @@ export default function Overview() {
                     Very excited about the opportunity to work full-time as a Web Developer. 
                     I am confident that I can make valuable contributions to the team. 
                     I will be committed to producing high-quality work and collaborating 
-                    effectively with colleagues. Last month, I started studying for a Master’s
-                    degree in Web Science at Syrian Virtual University (SVU).
+                    effectively with colleagues.
                 </p>
                 <div className='flex justify-between gap-1 sm:gap-4 '>
                     <p className='flex items-center text-[color:var(--scroll-bar-color)] text-md lg:text-lg'>

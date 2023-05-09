@@ -18,7 +18,7 @@ const education_list = [
 
 export const Education = () => {
     return (
-        <table className='w-full'>
+        <table className='w-full h-fit'>
             <thead className='bg-[color:var(--primary-color-two)] text-[.7rem] sm:text-[.9rem] md:text-xl '> 
                 <tr>
                     <th className='text-start p-1 md:p-3'>Degree</th>
@@ -31,10 +31,10 @@ export const Education = () => {
                 {
                     education_list.map((item,index) => (
                         <tr key={index} className='text-[.4rem] sm:text-[.6rem] md:text-lg '>
-                            <td className='ps-1 py-2 md:ps-3'>{item.degree}</td>
-                            <td className='ps-1 py-2 md:ps-3'>{item.department}</td>
-                            <td className='ps-1 py-2 md:ps-3'>{item.institute}</td>
-                            <td className='ps-1 py-2 md:ps-3'>{item.year}</td>
+                            <td className='ps-1 py-2 md:py-4 md:ps-3'>{item.degree}</td>
+                            <td className='ps-1 py-2 md:py-4 md:ps-3'>{item.department}</td>
+                            <td className='ps-1 py-2 md:py-4 md:ps-3'>{item.institute}</td>
+                            <td className='ps-1 py-2 md:py-4 md:ps-3'>{item.year}</td>
                         </tr>
                     ))
                 }

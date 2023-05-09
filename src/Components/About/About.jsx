@@ -3,7 +3,8 @@ import { Education } from './Education'
 import Overview from './Overview'
 import { Skills } from './Skills'
 import GetInTouch from './GetInTouch'
-
+import ScientificContributions from './ScientificContributions'
+import Languages from './Languages'
 
 const list_items = [
     {
@@ -15,13 +16,22 @@ const list_items = [
         filter: "education"
     },
     {
+        title: "Scientific Contributions",
+        filter:"scientificContributions"
+    },
+    {
         title: "Skills",
         filter:"skills"
+    },
+    {
+        title: "Languages",
+        filter:"languages"
     },
     {
         title: "Get in touch",
         filter:"getInTouch"
     },
+
 ]
 
 
@@ -63,11 +73,18 @@ export default function About() {
                             aboutFilter === "education" && <Education/>
                         }
                         {
+                            aboutFilter === "scientificContributions" && <ScientificContributions/>
+                        }
+                        {
                             aboutFilter === "skills" && <Skills/>
+                        }
+                        {
+                            aboutFilter === "languages" && <Languages/>
                         }
                         {
                             aboutFilter === "getInTouch" && <GetInTouch/>
                         }
+                        
                     </div>
                 </div>
             </div>

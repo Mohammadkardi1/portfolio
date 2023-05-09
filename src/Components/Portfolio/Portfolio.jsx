@@ -70,7 +70,7 @@ export default function Portfolio() {
                                         </div>
                                         <div className='technologies mb-4'>
                                             <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
-                                            <ul className='flex gap-1 m-0 p-0 '>
+                                            <ul className='flex gap-1 m-0 p-0'>
                                                 {
                                                     item.technologies?.map((item, index ) => (
                                                         <li className='bg-[color:#d7d7d7] rounded-[7px] px-[7px] py-[5px]' key={index}>
