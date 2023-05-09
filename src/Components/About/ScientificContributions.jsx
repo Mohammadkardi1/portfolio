@@ -58,8 +58,6 @@ function ScientificContributions() {
                         </ul>
                     </div>
                 </div>
-
-
                 <div>
                     <p className='text-md sm:text-lg md:text-xl underline  w-fit '>
                         Articles in a Scientific Blog called AI in Arabic
@@ -81,15 +79,8 @@ function ScientificContributions() {
                                     </li>
                                 ))
                             }
-
-
-
-
-
-
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>
