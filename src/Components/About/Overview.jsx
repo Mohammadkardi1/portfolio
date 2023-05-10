@@ -17,6 +17,10 @@ const social_links = [
         icon: "ri-telegram-fill",
         link : "https://t.me/Mohammad71223"
     }, 
+    // {
+    //     icon: "ri-twitter-fill",
+    //     link : "https://twitter.com/MohammadKardi1?fbclid=IwAR2PtfwgAUo5mKrZuEMxTdA5_Qkq-ZskouBNsY40urU9FtuHmZzQsNFCI04"
+    // }, 
 ]
 
 export default function Overview() {

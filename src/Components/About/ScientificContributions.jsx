@@ -2,27 +2,27 @@ import React from 'react'
 
 const article_items = [ 
     {
-        text: "“Feature Engineering Techniques For Time Series Data”, 2022 April 24.",
+        text: "Feature Engineering Techniques For Time Series Data, 2022 April 24.",
         link: "https://aiinarabic.com/feature-engineering-techniques-for-time-series-data/"
     },
     {
-        text: "“Local Outlier Factor”, 2021 November 20.",
+        text: "Local Outlier Factor, 2021 November 20.",
         link: "https://aiinarabic.com/local-outlier-factor/"
     },
     {
-        text: "“Word Embedding”, 2021 September 4.",
+        text: "Word Embedding, 2021 September 4.",
         link: "https://aiinarabic.com/word-embedding/"
     },
     {
-        text: "“DenseNet”, 2021 April 19.",
+        text: "DenseNet, 2021 April 19.",
         link: "https://aiinarabic.com/densenetarchiticture/"
     },
     {
-        text: "“How to Build a Neural Network in Pytorch”, 2020 October 4.",
+        text: "How to Build a Neural Network in Pytorch, 2020 October 4.",
         link: "https://aiinarabic.com/building-neural-network-using-pytorch/"
     },
     {
-        text: "“Object Tracking”, 2020 August 12.",
+        text: "Object Tracking, 2020 August 12.",
         link: "https://aiinarabic.com/object-tracking/"
     },
 ]
