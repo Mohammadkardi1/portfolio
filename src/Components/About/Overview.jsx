@@ -31,7 +31,7 @@ export default function Overview() {
                     About me
                 </h1>
                 <p className='text-[color:var(--scroll-bar-color)] mb-6 tracking-wider'>
-                    A fresh graduate from Tishreen University, earned a Bachelor's degree 
+                    A graduate from Tishreen University, earned a Bachelor's degree 
                     in Informatics Engineering with a graduation average of 80.86%. 
                     Very excited about the opportunity to work full-time as a Web Developer. 
                     I am confident that I can make valuable contributions to the team. 
