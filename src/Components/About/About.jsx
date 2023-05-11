@@ -56,7 +56,7 @@ export default function About() {
                                     <li 
                                         className={`text-center py-4 transition ease-out cursor-pointer
                                         ${ index !== list_items.length-1 && "border-b border-[color:var(--primary-color-two)]"}
-                                        hover:bg-[color:var(--primary-color-two)] `}
+                                        hover:bg-[color:var(--primary-color-two)] ${aboutFilter === item.filter && "bg-[color:var(--primary-color-two)]"}`}
                                         onClick={() => setAboutFilter(item.filter)}>
                                         {item.title}
                                     </li>
