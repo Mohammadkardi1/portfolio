@@ -60,7 +60,7 @@ function ScientificContributions() {
                 </div>
                 <div>
                     <p className='text-md sm:text-lg md:text-xl underline  w-fit '>
-                        Articles in a Scientific Blog called AI in Arabic
+                        Articles in a Scientific Blog
                     </p>
                     <div className='xs:text-xs sm:text-sm md:text-md md:pl-4 text-[color:var(--scroll-bar-color)]'>
                         <ul className='list-disc pl-5'>
