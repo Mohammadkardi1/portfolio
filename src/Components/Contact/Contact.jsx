@@ -15,7 +15,7 @@ export default function Contact() {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     <div>
                         <p className='text-justify text-[color:var(--scroll-bar-color)]'>
-                            I am excited about the opportunity to work as a full-time web developer and confident that I can make a valuable contribution to your team. I would be honored to hear from you. Please take a moment to fill out the form, and I will respond promptly.
+                            I would be honored to hear from you. Please take a moment to fill out the form, and I will respond promptly.
                         </p>
                     </div>
                     <div className="pb-7">
