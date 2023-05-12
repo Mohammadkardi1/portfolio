@@ -48,9 +48,13 @@ export default function Portfolio() {
                                 <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
                                     <div className='details__window px-3'>
                                         <div 
-                                            className='text-right cursor-pointer text-3xl'
-                                            onClick={() => handleBooleanToggle(index)}>
-                                            <i class="ri-close-line"></i>
+                                            className='text-right text-3xl'
+                                            >
+                                            <i 
+                                                class="ri-close-line cursor-pointer"
+                                                onClick={() => handleBooleanToggle(index)}
+                                            >
+                                            </i>
                                         </div>
                                         <img 
                                             className='w-full rounded-[10px]'
