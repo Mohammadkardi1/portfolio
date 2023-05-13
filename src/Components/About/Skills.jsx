@@ -39,6 +39,11 @@ const backend_skills = [
         width: "70%",
         percentage: "70%"
     },
+    {
+        title: "Firebase",
+        width: "70%",
+        percentage: "70%"
+    },
     // {
     //     title: "Node.js",
     //     width: "0%",
