@@ -35,10 +35,16 @@ export default function Overview() {
                 <p className='text-[color:var(--scroll-bar-color)] mb-6 tracking-wider'>
                     A graduate from Tishreen University, earned a Bachelor's degree 
                     in Informatics Engineering with a graduation average of 80.86%. 
-                    Very excited about the opportunity to work full-time as a Web Developer. 
+                    During my Bachelor's studies, I worked on several university projects, 
+                    wrote different scientific articles at a scientific blog, 
+                    and carried out a paper which ended up publishing at IEEE EEEIC 2021, Bari, Italy. 
+                    Throughout this journey, I gained valuable experiences in the area of computer science. 
+                    Now, I am highly motivated to add more and more contributions to any workplace I join. 
+
+                    {/* Very excited about the opportunity to work full-time as a Web Developer. 
                     I am confident that I can make valuable contributions to the team. 
                     I will be committed to producing high-quality work and collaborating 
-                    effectively with colleagues.
+                    effectively with colleagues. */}
                 </p>
                 <div className='flex justify-between gap-1 sm:gap-4 '>
                     <p className='flex items-center text-[color:var(--scroll-bar-color)] text-md lg:text-lg'>
