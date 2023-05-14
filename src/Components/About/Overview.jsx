@@ -39,7 +39,8 @@ export default function Overview() {
                     wrote different scientific articles at a scientific blog, 
                     and carried out a paper which ended up publishing at IEEE EEEIC 2021, Bari, Italy. 
                     Throughout this journey, I gained valuable experiences in the area of computer science. 
-                    Now, I am highly motivated to add more and more contributions to any workplace I join. 
+                    Now, I am highly motivated to add more and more contributions and apply my skills 
+                    to any workplace I join. 
 
                     {/* Very excited about the opportunity to work full-time as a Web Developer. 
                     I am confident that I can make valuable contributions to the team. 
