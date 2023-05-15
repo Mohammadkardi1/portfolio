@@ -24,8 +24,13 @@ const forntend_skills = [
     },
     {
         title: "Javascript",
-        width: "75%",
-        percentage: "75%"
+        width: "80%",
+        percentage: "80%"
+    },
+    {
+        title: "Typescript",
+        width: "80%",
+        percentage: "80%"
     },
     {
         title: "React",
