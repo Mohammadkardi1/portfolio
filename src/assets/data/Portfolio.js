@@ -11,6 +11,16 @@ import portfolioImg49 from "../images/news-homepage.png";
 import portfolioImg50 from "../images/results-summary-component.png";
 
 
+    // add two projects we worked on when you learned Node JS
+
+
+    // Booking app 
+    // XO
+    // application to learn Material UI 
+    // Dashboard
+    // Memory Game With JS
+    // tic-tac-toe Game
+    // Chat App
 
 const portfolios = [
     {
