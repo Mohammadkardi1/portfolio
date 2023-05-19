@@ -32,15 +32,15 @@ const forntend_skills = [
     {
         title: "Firebase",
     },
-    // {
-    //     title: "Node.js",
-    // },
-    // {
-    //     title: "Express.js",
-    // },
-    // {
-    //     title: "MangoDB",
-    // },
+    {
+        title: "Node.js",
+    },
+    {
+        title: "Express.js",
+    },
+    {
+        title: "MangoDB",
+    },
     // {
     //     title: "Socket.io",
     // },
