@@ -21,6 +21,7 @@ import portfolioImg50 from "../images/results-summary-component.png";
     // Memory Game With JS
     // tic-tac-toe Game
     // Chat App
+    // fix all previous projects
 
 const portfolios = [
     {
