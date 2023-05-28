@@ -15,7 +15,7 @@ export default function Hero() {
             showCursor: true,
             strings: [
                 'Mohammad Kardi',
-                'a Web Developer'
+                'a Full-Stack Developer'
             ]
         })
     }, [])
