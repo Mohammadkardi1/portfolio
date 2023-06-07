@@ -59,7 +59,7 @@ function ScientificContributions() {
                     </div>
                 </div>
                 <div>
-                    <p className='text-md sm:text-lg md:text-xl underline  w-fit '>
+                    <p className='text-md sm:text-lg md:text-xl underline w-fit '>
                         Articles in a Scientific Blog
                     </p>
                     <div className='xs:text-xs sm:text-sm md:text-md md:pl-4 text-[color:var(--scroll-bar-color)]'>
