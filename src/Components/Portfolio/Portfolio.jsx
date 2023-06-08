@@ -46,8 +46,8 @@ export default function Portfolio() {
                                         />
                                 </div>
                                 <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
-                                    <div className='details__window px-3'>
-                                        <div className='text-right text-3xl'>
+                                    <div className='details__window py-2 px-3 space-y-6'>
+                                        <div className='text-right text-3xl '>
                                             <i 
                                                 class="ri-close-line cursor-pointer"
                                                 onClick={() => handleBooleanToggle(index)}
@@ -58,17 +58,19 @@ export default function Portfolio() {
                                             className='w-full rounded-[10px]'
                                             src={item.imgUrl} 
                                             alt="" />
-                                        <h5 className='my-1 font-bold'>
-                                            {item.title}
-                                        </h5>
-                                        <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
-                                            <ul className='list-disc pl-5'>  
-                                            {item.description.map((item,index) => (
-                                                <li key={index}>
-                                                    {item}
-                                                </li>
-                                            ))}
-                                            </ul>
+                                        <div>
+                                            <h5 className='my-1 font-bold'>
+                                                {item.title}
+                                            </h5>
+                                            <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
+                                                <ul className='list-disc pl-5'>  
+                                                {item.description.map((item,index) => (
+                                                    <li key={index}>
+                                                        {item}
+                                                    </li>
+                                                ))}
+                                                </ul>
+                                            </div>
                                         </div>
                                         <div className='technologies mb-4'>
                                             <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
