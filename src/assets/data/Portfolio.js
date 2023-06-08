@@ -9,6 +9,8 @@ import portfolioImg47 from "../images/interactive-card-details-form-main.png";
 import portfolioImg48 from "../images/agency-homepage.png";
 import portfolioImg49 from "../images/news-homepage.png";
 import portfolioImg50 from "../images/results-summary-component.png";
+import portfolioImg100 from "../images/premitte.png"
+import portfolioImg39 from "../images/memories-app.png"
 
 
     // add two projects we worked on when you learned Node JS
@@ -23,12 +25,36 @@ import portfolioImg50 from "../images/results-summary-component.png";
     // Chat App
     // fix all previous projects
 
+
+    // 
+
 const portfolios = [
+    {
+        id: "39",
+        imgUrl: portfolioImg39,
+        category: "Web Design",
+        title: "Full-Stack Social Media Memories App",
+        description:
+            [
+                "Login and sign up with email or Google OAuth: Users can create an account and log in to the app using their email and password, or with Google OAuth for added convenience.",
+                "Authorization middleware: The app features authorization middleware to ensure that only authorized users can access certain features of the app.",
+                "Posting memories: Users can post their special memories on the app, which can be shared with other users.",
+                "Delete functionality: The app offers a delete functionality that allows users to delete their own posts.",
+                "Like functionality: Users can like other published memory posts, which adds an interactive element to the app.",
+                "Search functionality: The app features a search functionality that allows users to search for specific posts, making it easier to find the content they're looking for.",
+                "Pagination: The app uses pagination to divide content into separate pages, which helps to improve website performance and makes it easier for users to navigate through large amounts of content.",
+                "State management system: The app uses Redux to implement a state management system, which allows for efficient and predictable management of data and application state.",
+                "Responsive design: The app is designed to be responsive, which means that it can be accessed and used on a variety of devices, including desktops, laptops, smartphones, and tablets.",
+
+            ],
+        technologies: ["React", "Redux" , "Tailwind CSS", "Material UI", "Node.js", "Express.js", "MangoDB"],
+        siteUrl: "https://memories-frontend-sigma.vercel.app/posts",
+    },
     {
     id: "40",
     imgUrl: portfolioImg40,
     category: "Web Design",
-    title: "Full Stack E-Commerce Website",
+    title: "Full-Stack E-Commerce Website",
     description:
         [
             "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
@@ -156,6 +182,18 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/agency-homepage/",
     },  
+
+    {
+        id: "100",
+        imgUrl: portfolioImg100,
+        category: "Web Design",
+        title: "Premitte",
+        description:
+            [
+            ],
+        technologies: ["HTML", "Tailwind CSS"],
+        siteUrl: "https://premitte.vercel.app/home",
+    },
 
 
     {

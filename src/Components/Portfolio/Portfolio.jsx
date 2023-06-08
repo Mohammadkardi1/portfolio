@@ -47,9 +47,7 @@ export default function Portfolio() {
                                 </div>
                                 <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
                                     <div className='details__window px-3'>
-                                        <div 
-                                            className='text-right text-3xl'
-                                            >
+                                        <div className='text-right text-3xl'>
                                             <i 
                                                 class="ri-close-line cursor-pointer"
                                                 onClick={() => handleBooleanToggle(index)}
@@ -63,7 +61,7 @@ export default function Portfolio() {
                                         <h5 className='my-1 font-bold'>
                                             {item.title}
                                         </h5>
-                                        <div className='max-h-24 overflow-y-auto mb-3 text-sm'>
+                                        <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
                                             <ul className='list-disc pl-5'>  
                                             {item.description.map((item,index) => (
                                                 <li key={index}>
@@ -74,7 +72,7 @@ export default function Portfolio() {
                                         </div>
                                         <div className='technologies mb-4'>
                                             <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
-                                            <ul className='flex gap-1 m-0 p-0'>
+                                            <ul className='flex flex-wrap gap-1 m-0 p-0'>
                                                 {
                                                     item.technologies?.map((item, index ) => (
                                                         <li className='bg-[color:#d7d7d7] rounded-[7px] px-[7px] py-[5px]' key={index}>
