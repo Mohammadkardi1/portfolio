@@ -142,7 +142,8 @@ const portfolios = [
             "Developed using HTML, CSS, bootstrap and JavaScript."
         ],
     technologies: ["React", "Bootstrap"],
-    siteUrl: "https://mohammad-kardi-e-commerce-product-yt.netlify.app",
+    siteUrl: "https://e-commerce-product-page-navy-one.vercel.app",
+    // siteUrl: "https://mohammad-kardi-e-commerce-product-yt.netlify.app",
     },
 
 
