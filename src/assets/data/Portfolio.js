@@ -16,7 +16,7 @@ import portfolioImg39 from "../images/memories-app.png"
     // add two projects we worked on when you learned Node JS
 
 
-    // Booking app 
+    // Booking app (reservations)
     // XO
     // application to learn Material UI 
     // Dashboard
@@ -26,7 +26,9 @@ import portfolioImg39 from "../images/memories-app.png"
     // fix all previous projects
 
 
-    // 
+    // memories app (edit memory - commant on memory)
+    // booking app (complete the project)
+
 
 const portfolios = [
     {
@@ -45,7 +47,6 @@ const portfolios = [
                 "Pagination: The app uses pagination to divide content into separate pages, which helps to improve website performance and makes it easier for users to navigate through large amounts of content.",
                 "State management system: The app uses Redux to implement a state management system, which allows for efficient and predictable management of data and application state.",
                 "Responsive design: The app is designed to be responsive, which means that it can be accessed and used on a variety of devices, including desktops, laptops, smartphones, and tablets.",
-
             ],
         technologies: ["React", "Redux" , "Tailwind CSS", "Material UI", "Node.js", "Express.js", "MangoDB"],
         siteUrl: "https://memories-frontend-sigma.vercel.app/posts",
