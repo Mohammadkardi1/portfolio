@@ -31,6 +31,23 @@ import portfolioImg39 from "../images/memories-app.png"
 
 
 const portfolios = [
+
+    {
+    id: "40",
+    imgUrl: portfolioImg40,
+    category: "Web Design",
+    title: "Full-Stack E-Commerce Website",
+    description:
+        [
+            "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
+            "dealt with a cloud-based database which is Firebase.",
+            "Integrated Firebase authentication and authorization for user registration and login.",
+            "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
+            "Built a dashboard which contributes to manage the entire website more easily.",
+        ],
+    technologies: ["React", "Redux" , "Bootstrap", "Firebase"],
+    siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
+    },
     {
         id: "39",
         imgUrl: portfolioImg39,
@@ -51,22 +68,7 @@ const portfolios = [
         technologies: ["React", "Redux" , "Tailwind CSS", "Material UI", "Node.js", "Express.js", "MangoDB"],
         siteUrl: "https://memories-frontend-sigma.vercel.app/posts",
     },
-    {
-    id: "40",
-    imgUrl: portfolioImg40,
-    category: "Web Design",
-    title: "Full-Stack E-Commerce Website",
-    description:
-        [
-            "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
-            "dealt with a cloud-based database which is Firebase.",
-            "Integrated Firebase authentication and authorization for user registration and login.",
-            "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
-            "Built a dashboard which contributes to manage the entire website more easily.",
-        ],
-    technologies: ["React", "Redux" , "Bootstrap", "Firebase"],
-    siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
-    },
+
 
 
     {
