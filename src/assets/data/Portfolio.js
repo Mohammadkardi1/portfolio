@@ -1,17 +1,17 @@
-import portfolioImg40 from "../images/multimart-ecommerce-full-stack.png";
-import portfolioImg41 from '../images/weather-app.png'
-import portfolioImg42 from "../images/calculator.png"
-import portfolioImg43 from "../images/multi-step-form.png";
-import portfolioImg44 from "../images/movies-app.png";
-import portfolioImg45 from "../images/e-commerce-product.png";
-import portfolioImg46 from "../images/manage-landing-page.png";
-import portfolioImg47 from "../images/interactive-card-details-form-main.png";
-import portfolioImg48 from "../images/agency-homepage.png";
-import portfolioImg49 from "../images/news-homepage.png";
-import portfolioImg50 from "../images/results-summary-component.png";
-import portfolioImg100 from "../images/premitte.png"
-import portfolioImg39 from "../images/memories-app.png"
-
+import multimartImg from "../images/multimart-ecommerce-full-stack.png";
+import weatherImg from '../images/weather-app.png'
+import calculatorImg from "../images/calculator.png"
+import multiStepImg from "../images/multi-step-form.png";
+import movieImg from "../images/movies-app.png";
+import commerceImg from "../images/e-commerce-product.png";
+import landingImg from "../images/manage-landing-page.png";
+import interactiveCardImg from "../images/interactive-card-details-form-main.png";
+import agencyImg from "../images/agency-homepage.png";
+import newsImg from "../images/news-homepage.png";
+import resultsSummaryImg from "../images/results-summary-component.png";
+import premitteImg from "../images/premitte.png"
+import memoriesImg from "../images/memories-app.png"
+import airbnbImg from "../images/airbnb.png"
 
     // add two projects we worked on when you learned Node JS
 
@@ -31,39 +31,61 @@ import portfolioImg39 from "../images/memories-app.png"
 
 
 const portfolios = [
+    {
+        id: "38",
+        imgUrl: airbnbImg,
+        category: "Web Design",
+        title: "Full-Stack Room Booking App",
+        description:
+            [
+                "The App allows users to book rooms for their travel needs and also enables property owners to list their rooms for rent.",
+                "Login and sign up with email or Google OAuth",
+                "To ensure the security and validity of user accounts, the app require all users to sign up and verify their email addresses through an automated email verification process.",
+                "Authorization middlewares are used to ensure that only authorized users can access certain features of the app.",
+                "Users can list their own properties on the app, which can be shared with other users.",
+                "The app offers an edit functionality, which allows users to edit their published properties.",
+                "The app offers a delete functionality that allows users to delete their own properties.",
+                "Users can also favorite certain rooms, allowing them to easily access their preferred options in the future.",
+                "The app features a search functionality that allows users to search for specific rooms.",
+                "The app uses Redux to implement a state management system, which allows for efficient and predictable management of data and application state.",
+                "The app is designed to be responsive.",
+            ],
+        technologies: ["React", "Redux" , "Tailwind CSS", "Material UI", "Node.js", "Express.js", "MangoDB"],
+        siteUrl: "https://airbnb-clinet.vercel.app/home",
+    },
 
     {
-    id: "40",
-    imgUrl: portfolioImg40,
-    category: "Web Design",
-    title: "Full-Stack E-Commerce Website",
-    description:
-        [
-            "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
-            "dealt with a cloud-based database which is Firebase.",
-            "Integrated Firebase authentication and authorization for user registration and login.",
-            "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
-            "Built a dashboard which contributes to manage the entire website more easily.",
-        ],
-    technologies: ["React", "Redux" , "Bootstrap", "Firebase"],
-    siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
+        id: "40",
+        imgUrl: multimartImg,
+        category: "Web Design",
+        title: "Full-Stack E-Commerce Website",
+        description:
+            [
+                "Created a responsive user interface using React components, including product pages, shopping cart, and checkout process, etc.",
+                "dealt with a cloud-based database which is Firebase.",
+                "Integrated Firebase authentication and authorization for user registration and login.",
+                "Implemented a complex state management system using Redux, including product data, customer information, and order details.",
+                "Built a dashboard which contributes to manage the entire website more easily.",
+            ],
+        technologies: ["React", "Redux" , "Bootstrap", "Firebase"],
+        siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
     },
     {
         id: "39",
-        imgUrl: portfolioImg39,
+        imgUrl: memoriesImg,
         category: "Web Design",
         title: "Full-Stack Social Media Memories App",
         description:
             [
-                "Login and sign up with email or Google OAuth: Users can create an account and log in to the app using their email and password, or with Google OAuth for added convenience.",
-                "Authorization middleware: The app features authorization middleware to ensure that only authorized users can access certain features of the app.",
-                "Posting memories: Users can post their special memories on the app, which can be shared with other users.",
-                "Delete functionality: The app offers a delete functionality that allows users to delete their own posts.",
-                "Like functionality: Users can like other published memory posts, which adds an interactive element to the app.",
-                "Search functionality: The app features a search functionality that allows users to search for specific posts, making it easier to find the content they're looking for.",
-                "Pagination: The app uses pagination to divide content into separate pages, which helps to improve website performance and makes it easier for users to navigate through large amounts of content.",
+                "Login and sign up with email or Google OAuth.",
+                "Authorization middlewares are used to ensure that only authorized users can access certain features of the app.",
+                "Users can post their special memories on the app, which can be shared with other users.",
+                "The app offers a delete functionality that allows users to delete their own posts.",
+                "Users can like other published memory posts, which adds an interactive element to the app.",
+                "The app features a search functionality that allows users to search for specific posts, making it easier to find the content they're looking for.",
+                "The app uses pagination to divide content into separate pages, which helps to improve website performance and makes it easier for users to navigate through large amounts of content.",
                 "State management system: The app uses Redux to implement a state management system, which allows for efficient and predictable management of data and application state.",
-                "Responsive design: The app is designed to be responsive, which means that it can be accessed and used on a variety of devices, including desktops, laptops, smartphones, and tablets.",
+                "The app is designed to be responsive.",
             ],
         technologies: ["React", "Redux" , "Tailwind CSS", "Material UI", "Node.js", "Express.js", "MangoDB"],
         siteUrl: "https://memories-frontend-sigma.vercel.app/posts",
@@ -73,7 +95,7 @@ const portfolios = [
 
     {
         id: "41",
-        imgUrl: portfolioImg41,
+        imgUrl: weatherImg,
         category: "Web Design",
         title: "Weather App",
         description:
@@ -91,7 +113,7 @@ const portfolios = [
 
     {
     id: "42",
-    imgUrl: portfolioImg42,
+    imgUrl: calculatorImg,
     category: "Web Design",
     title: "Calculator",
     description:
@@ -105,7 +127,7 @@ const portfolios = [
 
     {
     id: "43",
-    imgUrl: portfolioImg43,
+    imgUrl: multiStepImg,
     category: "Web Design",
     title: "Multiple Step Form",
     description:
@@ -120,7 +142,7 @@ const portfolios = [
 
     {
     id: "44",
-    imgUrl: portfolioImg44,
+    imgUrl: movieImg,
     category: "Web Design",
     title: "Movies App",
     description:
@@ -135,7 +157,7 @@ const portfolios = [
 
     {
     id: "45",
-    imgUrl: portfolioImg45,
+    imgUrl: commerceImg,
     category: "Web Design",
     title: "E Commerce Product Page",
     description:
@@ -151,7 +173,7 @@ const portfolios = [
 
     {
     id: "46",
-    imgUrl: portfolioImg46,
+    imgUrl: landingImg,
     category: "Web Design",
     title: "Manage Landing Page",
     description:
@@ -164,7 +186,7 @@ const portfolios = [
 
     {
     id: "47",
-    imgUrl: portfolioImg47,
+    imgUrl: interactiveCardImg,
     category: "Web Design",
     title: "Interactive Card Details Form Main Page",
     description:
@@ -177,7 +199,7 @@ const portfolios = [
 
     {
     id: "48",
-    imgUrl: portfolioImg48,
+    imgUrl: agencyImg,
     category: "Web Design",
     title: "Agency Homepage",
     description:
@@ -189,7 +211,7 @@ const portfolios = [
 
     {
         id: "100",
-        imgUrl: portfolioImg100,
+        imgUrl: premitteImg,
         category: "Web Design",
         title: "Premitte",
         description:
@@ -202,7 +224,7 @@ const portfolios = [
 
     {
     id: "49",
-    imgUrl: portfolioImg49,
+    imgUrl: newsImg,
     category: "Web Design",
     title: "News Homepage",
     description:
@@ -215,7 +237,7 @@ const portfolios = [
 
     {
     id: "50",
-    imgUrl: portfolioImg50,
+    imgUrl: resultsSummaryImg,
     category: "Web Design",
     title: "Results Summary Component",
     description:
