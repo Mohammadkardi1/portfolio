@@ -2,10 +2,10 @@ import React from 'react'
 
 
 const getInTouch_items = [
-    {
-        title: "Address",
-        text: "Syria, Latakia"
-    },
+    // {
+    //     title: "Address",
+    //     text: "Syria, Latakia"
+    // },
     {
         title: "Phone",
         text: "+963 985 607 882"
@@ -14,10 +14,10 @@ const getInTouch_items = [
         title: "Email",
         text: <>mohammadkardi1@<wbr/>gmail.com</>
     },
-    {
-        title: "Location",
-        text: "7 April Street, Latakia"
-    },
+    // {
+    //     title: "Location",
+    //     text: "7 April Street, Latakia"
+    // },
 ]
 
 export default function GetInTouch() {
