@@ -46,7 +46,7 @@ export default function Portfolio() {
                                         />
                                 </div>
                                 <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
-                                    <div className='details__window py-2 px-3 space-y-6'>
+                                    <div className='details__window py-2 px-3 lg:px-5 space-y-6'>
                                         <div className='text-right text-3xl '>
                                             <i 
                                                 class="ri-close-line cursor-pointer"
