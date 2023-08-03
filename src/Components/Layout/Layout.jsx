@@ -13,7 +13,7 @@ function Layout() {
             <Header/>
             <Hero/>
             <About/>
-            {/* <Experience/> */}
+            <Experience/>
             <Portfolio/>
             <Contact/>
             <Footer/>

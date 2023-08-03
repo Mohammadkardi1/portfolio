@@ -4,23 +4,23 @@ import './experience.css'
 
 const experience_items = [
     {
-        period: "2020 - 2021", 
-        employmentStatus: "Remote / Full Time",
-        jobPosition : "Frontend Developer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
+        period: "2023 - current", 
+        employmentStatus: "Remote / Freelance ",
+        jobPosition : "Full-Stack Developer at Markitiz",
+        // description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
     },
-    {
-        period: "2020 - 2021", 
-        employmentStatus: "Remote / Full Time",
-        jobPosition : "Frontend Developer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
-    },
-    {
-        period: "2020 - 2021", 
-        employmentStatus: "Remote / Full Time",
-        jobPosition : "Frontend Developer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
-    },
+    // {
+    //     period: "2020 - 2021", 
+    //     employmentStatus: "Remote / Full Time",
+    //     jobPosition : "Frontend Developer",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
+    // },
+    // {
+    //     period: "2020 - 2021", 
+    //     employmentStatus: "Remote / Full Time",
+    //     jobPosition : "Frontend Developer",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"
+    // },
 ]
 
 
@@ -29,7 +29,7 @@ export default function Experience() {
     return (
         <div className='text-white text-sm md:text-lg'>
             <div className="container mx-auto px-4">
-                <div className='mb-8'>
+                <div className='mb-4'>
                     <h1 className=' font-bold text-white text-2xl tracking-wider'>
                         Experience
                     </h1>
