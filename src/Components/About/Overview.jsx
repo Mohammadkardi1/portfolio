@@ -36,7 +36,7 @@ export default function Overview() {
                     A graduate from Tishreen University, earned a Bachelor's degree 
                     in Informatics Engineering with a graduation average of 80.86%. 
                     During my Bachelor's studies, I worked on several university projects, 
-                    published scientific articles at a scientific blog 
+                    published articles at a scientific blog 
                     and carried out a paper ended up publishing at IEEE EEEIC 2021, Bari, Italy. 
                     Throughout this journey, I gained valuable experiences in the area of computer science. 
                     Now, I am highly motivated to add more and more contributions and apply my skills 
