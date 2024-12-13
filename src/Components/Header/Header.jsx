@@ -68,7 +68,7 @@ function Header() {
                     <div className="menu_toggler cursor-pointer rounded border
                         border-white py-1 px-2"
                         onClick={menuToggler}>
-                        <i class="ri-menu-line px-2"></i>
+                        <i className="ri-menu-line px-2"></i>
                     </div>
                 </div>
             </div>

@@ -2,11 +2,11 @@ import React from 'react'
 
 
 const education_list = [
-    {
-        degree: "Mater's degree in Web Science",
-        institute: 'Syrian Virtual University (SVU)' ,
-        date: "[2023-Present]",
-    },
+    // {
+    //     degree: "Mater's degree in Web Science",
+    //     institute: 'Syrian Virtual University (SVU)' ,
+    //     date: "[2023-Present]",
+    // },
     {
         degree: "Bachelor's degree in Informatics Engineering",
         institute: 'Tishreen University' ,

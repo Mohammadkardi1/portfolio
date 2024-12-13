@@ -33,10 +33,10 @@ const forntend_skills = [
         title: "Firebase",
     },
     {
-        title: "Node.js",
+        title: "Node JS",
     },
     {
-        title: "Express.js",
+        title: "Express JS",
     },
     {
         title: "MangoDB",

@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react'
-import heroImg from '../../assets/images/Capture.PNG'
+import heroImg from '../../assets/images/hero.jpg'
 import './Hero.css'
 import CountUp from 'react-countup'
 import { init } from 'ityped'
@@ -41,15 +41,15 @@ export default function Hero() {
                         <div className='mb-4'>
                             <p className='lex tracking-widest gap-3 md:gap-2 lg:gap-3
                                 text-[color:var(--scroll-bar-color)] leading-[30px]'>
-                                <span className='me-3'><i class="ri-apps-line"></i></span>
-                                Based in Syria, I am a web developer passionate about building accessible web apps.
+                                <span className='me-3'><i className="ri-apps-line"></i></span>
+                                Based in Germany, I am a web developer passionate about building accessible web apps.
                             </p>
                         </div>
                         <div className='flex gap-4 py-4'>
                             <div>
                                 <a href='mailto:mohammadkardi1@gmail.com'>
                                     <button className="flex gap-2 purple-btn">
-                                        <i class="ri-mail-line"></i>
+                                        <i className="ri-mail-line"></i>
                                             Send Message
                                     </button>
                                 </a>

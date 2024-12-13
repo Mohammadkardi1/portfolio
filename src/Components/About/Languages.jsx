@@ -4,7 +4,11 @@ import React from 'react'
 const languages_items = [
     {
         title: "English",
-        text: "C1 Level — Fluent"
+        text: "B2 Level — Fluent"
+    },
+    {
+        title: "German",
+        text: "A2 Level"
     },
     {
         title: "Arabic",

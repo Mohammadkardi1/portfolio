@@ -9,14 +9,14 @@ const social_links = [
         icon: "ri-linkedin-box-fill",
         link : "https://www.linkedin.com/in/mohammad-kardi/"
     }, 
-    {
-        icon: "ri-facebook-box-fill",
-        link : "https://www.facebook.com/profile.php?id=100006621041867"
-    }, 
-    {
-        icon: "ri-telegram-fill",
-        link : "https://t.me/Mohammad71223"
-    }, 
+    // {
+    //     icon: "ri-facebook-box-fill",
+    //     link : "https://www.facebook.com/profile.php?id=100006621041867"
+    // }, 
+    // {
+    //     icon: "ri-telegram-fill",
+    //     link : "https://t.me/Mohammad71223"
+    // }, 
     // {
     //     icon: "ri-twitter-fill",
     //     link : "https://twitter.com/MohammadKardi1?fbclid=IwAR2PtfwgAUo5mKrZuEMxTdA5_Qkq-ZskouBNsY40urU9FtuHmZzQsNFCI04"
@@ -33,14 +33,23 @@ export default function Overview() {
                     About me
                 </h1>
                 <p className='text-[color:var(--scroll-bar-color)] mb-6 tracking-wider'>
-                    A graduate from Tishreen University, earned a Bachelor's degree 
+                    A graduate from Tishreen University, earned a Bachelor's degree in Informatics Engineering with 
+                    a graduation average of 80.86%. During my Bachelor's studies, I worked on several university projects, 
+                    published articles on a scientific blog called "AI in Arabic", and carried out a paper that was published 
+                    at IEEE EEEIC 2021, Bari, Italy. I also worked at Al-Mustaqbal Institute as an IT trainer. Throughout 
+                    this journey, I gained valuable experience in the area of computer science. Now, I am highly motivated 
+                    to make further contributions and apply my skills to any workplace I join.
+
+
+
+                    {/* A graduate from Tishreen University, earned a Bachelor's degree 
                     in Informatics Engineering with a graduation average of 80.86%. 
                     During my Bachelor's studies, I worked on several university projects, 
                     published articles at a scientific blog 
                     and carried out a paper ended up publishing at IEEE EEEIC 2021, Bari, Italy. 
                     Throughout this journey, I gained valuable experiences in the area of computer science. 
                     Now, I am highly motivated to add more and more contributions and apply my skills 
-                    to any workplace I join. 
+                    to any workplace I join.  */}
 
                     {/* Very excited about the opportunity to work full-time as a Web Developer. 
                     I am confident that I can make valuable contributions to the team. 

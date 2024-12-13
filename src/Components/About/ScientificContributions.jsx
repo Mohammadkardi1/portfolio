@@ -64,21 +64,35 @@ function ScientificContributions() {
                     </p>
                     <div className='xs:text-xs sm:text-sm md:text-md md:pl-4 text-[color:var(--scroll-bar-color)]'>
                         <ul className='list-disc pl-5'>
-                            {
-                                article_items.map((item, index) => (
-                                    <li>
-                                        <p className='text-[color:var(--scroll-bar-color)]'>
-                                            {item.text} &nbsp;
-                                            <a 
-                                                href={item.link} 
-                                                className='underline border-b-2 border-blue-500  text-blue-500'
-                                                target='_blank'>
-                                                [Link]
-                                            </a>
-                                        </p>
-                                    </li>
-                                ))
-                            }
+                            {article_items.map((item, index) => (
+                                <li>
+                                    <p className='text-[color:var(--scroll-bar-color)]'>
+                                        {item.text} &nbsp;
+                                        <a 
+                                            href={item.link} 
+                                            className='underline border-b-2 border-blue-500  text-blue-500'
+                                            target='_blank'>
+                                            [Link]
+                                        </a>
+                                    </p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p className='text-md sm:text-lg md:text-xl underline w-fit '>
+                        IT Trainer at Al-Mustaqbal Institute
+                    </p>
+                    <div className='xs:text-xs sm:text-sm md:text-md md:pl-4 text-[color:var(--scroll-bar-color)]'>
+                        <ul className='list-disc pl-5'>
+                            <li>
+                                <p className='text-[color:var(--scroll-bar-color)]'>
+                                    I joined Al-Mustaqbal Institute in September 2022 as an IT trainer, where I teach courses 
+                                    on web development technologies such as HTML, CSS, and JavaScript. This role gave me the 
+                                    opportunity to help students develop basic skills in front-end development.
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </div>

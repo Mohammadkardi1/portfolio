@@ -42,7 +42,7 @@ export default function Experience() {
                                 <div>
                                     <span className='text-[color:var(--primary-color-two)] 
                                             text-lg md:text-xl'>
-                                        <i class="ri-briefcase-line"></i>
+                                        <i className="ri-briefcase-line"></i>
                                     </span>
                                 </div>
                                 <div>

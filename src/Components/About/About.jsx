@@ -53,7 +53,7 @@ export default function About() {
                         <ul className='rounded-md'>
                             {
                                 list_items.map((item, index) => (
-                                    <li 
+                                    <li  key={index}
                                         className={`text-center py-4 transition ease-out cursor-pointer
                                         ${ index !== list_items.length-1 && "border-b border-[color:var(--primary-color-two)]"}
                                         hover:bg-[color:var(--primary-color-two)] ${aboutFilter === item.filter && "bg-[color:var(--primary-color-two)]"}`}
@@ -66,25 +66,12 @@ export default function About() {
                     </div>
                     <div className='col-span-3 lg:col-span-2  rounded flex 
                         bg-[color:var(--card-color)]'>
-                        {
-                            aboutFilter === "overview" && <Overview/>
-                        }
-                        {
-                            aboutFilter === "education" && <Education/>
-                        }
-                        {
-                            aboutFilter === "scientificContributions" && <ScientificContributions/>
-                        }
-                        {
-                            aboutFilter === "skills" && <Skills/>
-                        }
-                        {
-                            aboutFilter === "languages" && <Languages/>
-                        }
-                        {
-                            aboutFilter === "getInTouch" && <GetInTouch/>
-                        }
-                        
+                        {aboutFilter === "overview" && <Overview/>}
+                        {aboutFilter === "education" && <Education/>}
+                        {aboutFilter === "scientificContributions" && <ScientificContributions/>}
+                        {aboutFilter === "skills" && <Skills/>}
+                        {aboutFilter === "languages" && <Languages/>}
+                        {aboutFilter === "getInTouch" && <GetInTouch/>}
                     </div>
                 </div>
             </div>

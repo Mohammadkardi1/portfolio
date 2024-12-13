@@ -49,7 +49,7 @@ export default function Portfolio() {
                                     <div className='details__window py-2 px-3 lg:px-5 space-y-6'>
                                         <div className='text-right text-3xl '>
                                             <i 
-                                                class="ri-close-line cursor-pointer"
+                                                className="ri-close-line cursor-pointer"
                                                 onClick={() => handleBooleanToggle(index)}
                                             >
                                             </i>
