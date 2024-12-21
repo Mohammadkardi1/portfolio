@@ -31,78 +31,57 @@ export default function Portfolio() {
                     </h3>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-3'>
-                    {
-                        portfolioData.slice(0,nextItems)?.map((item, index) => (
-                            <div className='' key={index}>
-                                <div className='protfolio__card relative cursor-pointer text-white rounded-md'
-                                    onClick={() => handleBooleanToggle(index)}>
-                                    <div className='portfolio__overlay rounded-md text-lg'>
-                                        See details
-                                    </div>
-                                    <img 
-                                        src={item.imgUrl} 
-                                        alt="" 
-                                        className='rounded-md'
-                                        />
+                    {portfolioData.slice(0,nextItems)?.map((item, index) => (
+                        <div className='' key={index}>
+                            <div className='protfolio__card relative cursor-pointer text-white rounded-md'
+                                onClick={() => handleBooleanToggle(index)}>
+                                <div className='portfolio__overlay rounded-md text-lg'>
+                                    See details
                                 </div>
-                                <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
-                                    <div className='details__window py-2 px-3 lg:px-5 space-y-6'>
-                                        <div className='text-right text-3xl '>
-                                            <i 
-                                                className="ri-close-line cursor-pointer"
-                                                onClick={() => handleBooleanToggle(index)}
-                                            >
-                                            </i>
-                                        </div>
-                                        <img 
-                                            className='w-full rounded-[10px]'
-                                            src={item.imgUrl} 
-                                            alt="" />
-                                        <div>
-                                            <h5 className='my-1 font-bold'>
-                                                {item.title}
-                                            </h5>
-                                            <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
-                                                <ul className='list-disc pl-5'>  
-                                                {item.description.map((item,index) => (
-                                                    <li key={index}>
-                                                        {item}
-                                                    </li>
-                                                ))}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className='technologies mb-4'>
-                                            <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
-                                            <ul className='flex flex-wrap gap-1 m-0 p-0'>
-                                                {
-                                                    item.technologies?.map((item, index ) => (
-                                                        <li className='bg-[color:#d7d7d7] rounded-[7px] px-[7px] py-[5px]' key={index}>
-                                                            {item}
-                                                        </li>
-                                                    ))
-                                                }
+                                <img src={item.imgUrl} alt="" className='rounded-md'/>
+                            </div>
+                            <div className={`portfolio__details flex justify-center items-center ${isDetailsOpen[index] ? "visible" : 'invisible'}`}>
+                                <div className='details__window py-2 px-3 lg:px-5 space-y-6'>
+                                    <div className='text-right text-3xl '>
+                                        <i className="ri-close-line cursor-pointer" 
+                                            onClick={() => handleBooleanToggle(index)}>
+                                        </i>
+                                    </div>
+                                    <img className='w-full rounded-[10px] shadow-lg border border-sm'src={item.imgUrl}/>
+                                    <div>
+                                        <h5 className='my-1 font-bold'>{item.title}</h5>
+                                        <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
+                                            <ul className='list-disc pl-5'>  
+                                            {item.description.map((item,index) => (
+                                                <li key={index}>{item}</li>
+                                            ))}
                                             </ul>
                                         </div>
-                                        <div>
-                                            <a href={item.siteUrl} target='_blank' rel="noreferrer">
-                                                <button className='purple-btn mb-3'>
-                                                    Live site
-                                                </button>
-                                            </a>
-                                        </div>
+                                    </div>
+                                    <div className='technologies mb-4'>
+                                        <h5 className='flex items-center font-bold mb-1'>Technologies:</h5>
+                                        <ul className='flex flex-wrap gap-1 m-0 p-0'>
+                                            {item.technologies?.map((item, index ) => (
+                                                <li key={index} className='bg-[color:#d7d7d7] rounded-[7px] px-[7px] py-[5px] 
+                                                                cursor-pointer hover:bg-[color:var(--model-bg)] hover:text-white'>
+                                                    {item}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <a href={item.siteUrl} target='_blank' rel="noreferrer">
+                                            <button className='purple-btn mb-3'>Live site</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        ))
-                    }
+                        </div>
+                    ))}
                 </div>
-                <div 
-                    className={`text-center py-5 ${nextItems === portfolioData.length +1 ? "invisible" : "visible" }`}
+                <div className={`text-center py-5 ${nextItems === portfolioData.length +1 ? "invisible" : "visible" }`}
                     onClick={loadMoreHandler}>
-                    <button className='purple-btn '>
-                        Load more
-                    </button>
+                    <button className='purple-btn '>Load more</button>
                 </div>
             </div>
         </div>

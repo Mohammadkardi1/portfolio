@@ -12,6 +12,7 @@ import resultsSummaryImg from "../images/results-summary-component.png";
 import premitteImg from "../images/premitte.png"
 import memoriesImg from "../images/memories-app.png"
 import airbnbImg from "../images/airbnb.png"
+import medicareImg from "../images/medicare.PNG"
 
     // add two projects we worked on when you learned Node JS
 
@@ -32,7 +33,30 @@ import airbnbImg from "../images/airbnb.png"
 
 const portfolios = [
     {
-        id: "38",
+        id: "15",
+        imgUrl: medicareImg,
+        category: "Web Design",
+        title: "Full-Stack Medicare App",
+        description:
+            [
+                "The App allows patients to look for doctors, while enabling doctors to create and manage their profiles and appointments efficiently.",
+                "Login and sign up with email, ensuring a secure authentication process for both patients and doctors.",
+                "To ensure the security and validity of user accounts, the app requires all users (both patients and doctors) to verify their email addresses through an automated email verification process.",
+                "Authorization middlewares are used to ensure that only authorized users (e.g., doctors or patients) can access certain features of the app, maintaining data security and privacy.",
+                "Doctors can create detailed profiles, including bio, specialization, qualifications, experiences, hospital affiliations, consultation fees, time slots, phone number, and profile photo.",
+                // "Patients can browse doctor profiles, view their available time slots, and book appointments seamlessly.",
+                "Doctors have access to a dedicated dashboard, allowing them to manage appointments and update their profile",
+                "Patients can review and rate doctors after their appointments, helping other patients make informed decisions.",
+                "The app implements state management (e.g., using Redux) to ensure efficient and predictable management of data and application state.",
+                "The platform prioritizes user-friendly navigation, enabling both patients and doctors to interact with the app effortlessly.",
+                // "Search and filter functionalities allow patients to find doctors based on specific criteria such as specialization, location, and availability.",
+                // "A responsive design ensures that the platform works smoothly on various devices, including desktops, tablets, and mobile phones.",
+            ],
+        technologies: ["React", "Redux" , "Tailwind CSS", "Node.js", "Express.js", "MangoDB"],
+        siteUrl: "https://medicare-client-mocha.vercel.app/",
+    },
+    {
+        id: "14",
         imgUrl: airbnbImg,
         category: "Web Design",
         title: "Full-Stack Room Booking App",
@@ -55,7 +79,7 @@ const portfolios = [
     },
 
     {
-        id: "40",
+        id: "13",
         imgUrl: multimartImg,
         category: "Web Design",
         title: "Full-Stack E-Commerce Website",
@@ -71,7 +95,7 @@ const portfolios = [
         siteUrl: "https://mohammad-kardi-multimart-ecommerce-full-stack.vercel.app/home",
     },
     {
-        id: "39",
+        id: "12",
         imgUrl: memoriesImg,
         category: "Web Design",
         title: "Full-Stack Social Media Memories App",
@@ -94,7 +118,7 @@ const portfolios = [
 
 
     {
-        id: "41",
+        id: "11",
         imgUrl: weatherImg,
         category: "Web Design",
         title: "Weather App",
@@ -112,7 +136,7 @@ const portfolios = [
 
 
     {
-    id: "42",
+    id: "10",
     imgUrl: calculatorImg,
     category: "Web Design",
     title: "Calculator",
@@ -126,7 +150,7 @@ const portfolios = [
 
 
     {
-    id: "43",
+    id: "9",
     imgUrl: multiStepImg,
     category: "Web Design",
     title: "Multiple Step Form",
@@ -141,7 +165,7 @@ const portfolios = [
 
 
     {
-    id: "44",
+    id: "8",
     imgUrl: movieImg,
     category: "Web Design",
     title: "Movies App",
@@ -156,7 +180,7 @@ const portfolios = [
 
 
     {
-    id: "45",
+    id: "7",
     imgUrl: commerceImg,
     category: "Web Design",
     title: "E Commerce Product Page",
@@ -172,7 +196,7 @@ const portfolios = [
 
 
     {
-    id: "46",
+    id: "6",
     imgUrl: landingImg,
     category: "Web Design",
     title: "Manage Landing Page",
@@ -185,7 +209,7 @@ const portfolios = [
 
 
     {
-    id: "47",
+    id: "5",
     imgUrl: interactiveCardImg,
     category: "Web Design",
     title: "Interactive Card Details Form Main Page",
@@ -198,7 +222,7 @@ const portfolios = [
 
 
     {
-    id: "48",
+    id: "4",
     imgUrl: agencyImg,
     category: "Web Design",
     title: "Agency Homepage",
@@ -210,7 +234,7 @@ const portfolios = [
     },  
 
     {
-        id: "100",
+        id: "3",
         imgUrl: premitteImg,
         category: "Web Design",
         title: "Premitte",
@@ -223,7 +247,7 @@ const portfolios = [
 
 
     {
-    id: "49",
+    id: "2",
     imgUrl: newsImg,
     category: "Web Design",
     title: "News Homepage",
@@ -236,7 +260,7 @@ const portfolios = [
 
 
     {
-    id: "50",
+    id: "1",
     imgUrl: resultsSummaryImg,
     category: "Web Design",
     title: "Results Summary Component",
@@ -246,10 +270,6 @@ const portfolios = [
     technologies: ["HTML", "Bootstrap"],
     siteUrl: "https://mohammadkardi1.github.io/results-summary-component/",
     },
-
-
-
-
 ];
 
 export default portfolios;
