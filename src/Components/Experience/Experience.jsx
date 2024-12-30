@@ -4,7 +4,7 @@ import './experience.css'
 
 const experience_items = [
     {
-        period: "2022 - current", 
+        period: "2022 - 2023", 
         employmentStatus: "Remote / Full-Time ",
         jobPosition : "Full-Stack Developer at Markitiz",
         // description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis assumenda qui rerum, rem ipsam?"

@@ -47,11 +47,9 @@ function ScientificContributions() {
                                     and 2021 IEEE Industrial and Commercial Power Systems Europe (EEEIC / I&CPS Europe), 
                                     2021 Sep 7.
                                     &nbsp;
-                                            <a 
-                                                href="https://ieeexplore.ieee.org/document/9584650"
-                                                className='underline border-b-2 border-blue-500  text-blue-500'
-                                                target='_blank'>
-                                                [Link]
+                                    <a href="https://ieeexplore.ieee.org/document/9584650" target='_blank'
+                                        className='underline border-b-2 border-blue-500  text-blue-500'>
+                                        [Link]
                                     </a>
                                 </p>
                             </li>
@@ -80,7 +78,7 @@ function ScientificContributions() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <p className='text-md sm:text-lg md:text-xl underline w-fit '>
                         IT Trainer at Al-Mustaqbal Institute
                     </p>
@@ -95,7 +93,7 @@ function ScientificContributions() {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

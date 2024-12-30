@@ -10,7 +10,7 @@ const education_list = [
     {
         degree: "Bachelor's degree in Informatics Engineering",
         institute: 'Tishreen University' ,
-        date: "[2017-2022]",
+        date: "10/2017 - 11/2022",
     }
 ]
 
@@ -20,12 +20,13 @@ export const Education = () => {
             {
                 education_list.map((item,index) => (
                     <div key={index} className=' space-y-2'>
-                        <h1 className='text-md sm:text-lg md:text-2xl font-semibold'>
+                        <h1 className='text-md sm:text-lg md:text-2xl font-bold'>
                             {item.degree}
                         </h1>
-                        <p className='xs:text-xs sm:text-sm md:text-xl text-[color:var(--scroll-bar-color)]'>
-                            {item.institute} - {item.date}
-                        </p>
+                        <div className='xs:text-xs sm:text-sm md:text-xl text-[color:var(--scroll-bar-color)]'>
+                            <p className='font-semibold'>{item.institute}</p>
+                            <p className='font-[300]'>{item.date}</p>
+                        </div>
                     </div>
                 ))
             }
