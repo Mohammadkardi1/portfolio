@@ -24,7 +24,7 @@ const forntend_skills = [
         title: "Material UI",
     },
     {
-        title: "React",
+        title: "React JS",
     },
     {
         title: "SQL",

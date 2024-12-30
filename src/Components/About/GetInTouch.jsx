@@ -4,7 +4,7 @@ import React from 'react'
 const getInTouch_items = [
     {
         title: "Address",
-        text: "Germany, Langenfeld (Rheinland)"
+        text: "Langenfeld (Rheinland), Germany"
     },
     {
         title: "Phone",

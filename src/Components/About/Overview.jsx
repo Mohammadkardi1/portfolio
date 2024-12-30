@@ -33,11 +33,12 @@ export default function Overview() {
                     About me
                 </h1>
                 <p className='text-[color:var(--scroll-bar-color)] mb-6 tracking-wider'>
-                    A graduate from Tishreen University, earned a Bachelor's degree in Informatics Engineering with 
-                    a graduation average of 80.86%. During my Bachelor's studies, I worked on several university projects, 
+                    I am a graduate of Tishreen University with a Bachelor's degree in Informatics Engineering, 
+                    achieving a graduation average of 80.86%. During my Bachelor's studies, I worked on several university projects, 
                     published articles on a scientific blog called "AI in Arabic", and carried out a paper that was published 
-                    at IEEE EEEIC 2021, Bari, Italy. I also worked at Al-Mustaqbal Institute as an IT trainer. Throughout 
-                    this journey, I gained valuable experience in the area of computer science. Now, I am highly motivated 
+                    at IEEE EEEIC 2021, Bari, Italy. Additionally, I worked at Al-Mustaqbal Institute as an IT trainer. 
+                    <br/><br/>
+                    Throughout this journey, I gained valuable experience in the area of computer science. Now, I am highly motivated 
                     to make further contributions and apply my skills to any workplace I join.
 
 

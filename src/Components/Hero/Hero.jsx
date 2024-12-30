@@ -42,7 +42,7 @@ export default function Hero() {
                             <p className='lex tracking-widest gap-3 md:gap-2 lg:gap-3
                                 text-[color:var(--scroll-bar-color)] leading-[30px]'>
                                 <span className='me-3'><i className="ri-apps-line"></i></span>
-                                Based in Germany, I am a web developer passionate about building accessible web apps.
+                                Living in Germany, passionate about building accessible web apps.
                             </p>
                         </div>
                         <div className='flex gap-4 py-4'>
