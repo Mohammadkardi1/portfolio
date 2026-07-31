@@ -48,7 +48,8 @@ function ScientificContributions() {
                                     2021 Sep 7.
                                     &nbsp;
                                     <a href="https://ieeexplore.ieee.org/document/9584650" target='_blank'
-                                        className='underline border-b-2 border-blue-500  text-blue-500'>
+                                        className='underline border-b-2 border-blue-500  text-blue-500'
+                                        rel="noreferrer">
                                         [Link]
                                     </a>
                                 </p>
@@ -69,7 +70,8 @@ function ScientificContributions() {
                                         <a 
                                             href={item.link} 
                                             className='underline border-b-2 border-blue-500  text-blue-500'
-                                            target='_blank'>
+                                            target='_blank'
+                                            rel="noreferrer">
                                             [Link]
                                         </a>
                                     </p>
