@@ -7,6 +7,7 @@ const education_list = [
     //     institute: 'Syrian Virtual University (SVU)' ,
     //     date: "[2023-Present]",
     // },
+    
     {
         degree: "Bachelor's degree in Informatics Engineering",
         institute: 'Tishreen University, Latakia, Syria' ,
