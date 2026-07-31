@@ -56,7 +56,8 @@ function Header() {
                                     <a 
                                         className='no-underline'
                                         href={`#${item.path} `}
-                                        onClick={menuToggler}>
+                                        onClick={menuToggler}
+                                        rel="noreferrer">
                                         {item.display}
                                     </a>
                                 </li>

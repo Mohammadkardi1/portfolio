@@ -58,7 +58,8 @@ export default function Hero() {
                                     text-black rounded-[10px] px-[15px] py-[7px] hover:opacity-70'>
                                 <a 
                                     href="https://drive.google.com/drive/folders/1bocfj4pcE4lQuZC9tLoTA4e-X5Ha2Dq3?usp=sharing" 
-                                    target='_blank '>
+                                    target='_blank '
+                                    rel="noreferrer">
                                     My resume
                                 </a>
                             </div>

@@ -47,7 +47,8 @@ function ScientificContributions() {
                                     and 2021 IEEE Industrial and Commercial Power Systems Europe (EEEIC / I&CPS Europe), 
                                     2021 Sep 7.
                                     &nbsp;
-                                    <a href="https://ieeexplore.ieee.org/document/9584650" target='_blank'
+                                    <a href="https://ieeexplore.ieee.org/document/9584650" 
+                                        target='_blank'
                                         className='underline border-b-2 border-blue-500  text-blue-500'
                                         rel="noreferrer">
                                         [Link]

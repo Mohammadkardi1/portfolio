@@ -69,7 +69,8 @@ export default function Overview() {
                                     <a 
                                         className='hover:opacity-70 text-xl lg:text-2xl text-[color:var(--primary-color-two)]'
                                         href={item.link} 
-                                        target='_blank'>
+                                        target='_blank'
+                                        rel="noreferrer">
                                         <i className={item.icon}></i>
                                     </a>
                                 </li>
