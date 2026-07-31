@@ -47,7 +47,7 @@ export default function Portfolio() {
                                             onClick={() => handleBooleanToggle(index)}>
                                         </i>
                                     </div>
-                                    <img className='w-full rounded-[10px] shadow-lg border border-sm'src={item.imgUrl}/>
+                                    <img className='w-full rounded-[10px] shadow-lg border border-sm' src={item.imgUrl} alt=""/>
                                     <div>
                                         <h5 className='my-1 font-bold'>{item.title}</h5>
                                         <div className='max-h-28 overflow-y-auto mb-3 text-sm'>
