@@ -79,7 +79,7 @@ export default function Portfolio() {
                         </div>
                     ))}
                 </div>
-                <div className={`text-center py-5 ${nextItems === portfolioData.length +1 ? "invisible" : "visible" }`}
+                <div className={`text-center py-5 ${nextItems === portfolioData.length ? "invisible" : "visible" }`}
                     onClick={loadMoreHandler}>
                     <button className='purple-btn '>Load more</button>
                 </div>

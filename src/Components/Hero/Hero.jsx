@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react'
-import heroImg from '../../assets/images/hero.jpg'
+import heroImg from '../../assets/images/hero.png'
 import './Hero.css'
 import CountUp from 'react-countup'
 import { init } from 'ityped'

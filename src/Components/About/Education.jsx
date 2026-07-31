@@ -9,7 +9,7 @@ const education_list = [
     // },
     {
         degree: "Bachelor's degree in Informatics Engineering",
-        institute: 'Tishreen University' ,
+        institute: 'Tishreen University, Latakia, Syria' ,
         date: "10/2017 - 11/2022",
     }
 ]
